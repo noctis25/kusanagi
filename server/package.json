@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.2.0",
+    "dynamodb-marshaler": "^2.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "jade": "~1.11.0",
+    "jikan-node": "^1.2.0",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.471.0"
+  }
+}
