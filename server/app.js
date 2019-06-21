@@ -43,7 +43,7 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 let baga = '';
 
 
-mal.search('anime','fullmetal alchemist', {limit: 5})
+mal.search('anime','fullmetal alchemist', {limit: 1})
     .then(search => baga = search)
     .catch(err => console.log(err));
 
