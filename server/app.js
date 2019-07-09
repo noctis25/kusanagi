@@ -59,7 +59,7 @@ app.post("/inputData", (req, res) => {
   var params = {
     TableName: 'anime',
     Item: {
-      'id' : {N: '3'},
+      'id' : {N: '4'}, //Need to find way to auto-increment
       "url": {S: req.body.url},
      "image_url":{S: req.body.image_url},
      "title":{S: req.body.title},
